@@ -34,14 +34,13 @@ PRODUCT_PACKAGES += \
     DeskClock \
     DocumentsUI \
     DownloadProviderUi \
-    Email \
     ExactCalculator \
     ExternalStorageProvider \
     FusedLocation \
     InputDevices \
     KeyChain \
     Keyguard \
-    Launcher2 \
+    Launcher3 \
     ManagedProvisioning \
     MtpDocumentsProvider \
     PicoTts \
@@ -58,7 +57,8 @@ PRODUCT_PACKAGES += \
     TeleService \
     VpnDialogs \
     vr \
-    MmsService
+    MmsService \
+    LatinIME
 
 # The set of packages whose code can be loaded by the system server.
 PRODUCT_SYSTEM_SERVER_APPS += \
